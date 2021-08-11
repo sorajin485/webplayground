@@ -10,11 +10,7 @@ let milliseconds = today.getMilliseconds(); // 밀리초
 let time = today.getTime();
 
 console.log("today : ",today);
-
-console.log(year + '/' + month + '/' + date);
-
-console.log(day);
-
+let cTime = year + '/' + month + '/' + date +" "+ hours + ':' + minutes + ':' + seconds;
+console.log(cTime);
 console.log(hours + ':' + minutes + ':' + seconds + ':' + milliseconds);
 
-console.log("time : ",time);
